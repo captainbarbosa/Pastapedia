@@ -11,6 +11,11 @@
 		6587FB36259BB18E00A88891 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6587FB35259BB18E00A88891 /* ContentView.swift */; };
 		6587FB38259BB18F00A88891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6587FB37259BB18F00A88891 /* Assets.xcassets */; };
 		6587FB3B259BB18F00A88891 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6587FB3A259BB18F00A88891 /* Preview Assets.xcassets */; };
+		6587FB45259BB9E400A88891 /* pasta.json in Resources */ = {isa = PBXBuildFile; fileRef = 6587FB44259BB9E400A88891 /* pasta.json */; };
+		6587FB49259BBA4100A88891 /* Pasta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6587FB48259BBA4100A88891 /* Pasta.swift */; };
+		6587FB4E259BBCE600A88891 /* PastaListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6587FB4D259BBCE600A88891 /* PastaListRow.swift */; };
+		6587FB58259BC5CD00A88891 /* PastaDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6587FB57259BC5CD00A88891 /* PastaDetail.swift */; };
+		6587FB69259BE6C800A88891 /* PastaSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6587FB68259BE6C800A88891 /* PastaSizeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		6587FB37259BB18F00A88891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6587FB3A259BB18F00A88891 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6587FB3C259BB18F00A88891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6587FB44259BB9E400A88891 /* pasta.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pasta.json; sourceTree = "<group>"; };
+		6587FB48259BBA4100A88891 /* Pasta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pasta.swift; sourceTree = "<group>"; };
+		6587FB4D259BBCE600A88891 /* PastaListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaListRow.swift; sourceTree = "<group>"; };
+		6587FB57259BC5CD00A88891 /* PastaDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaDetail.swift; sourceTree = "<group>"; };
+		6587FB68259BE6C800A88891 /* PastaSizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaSizeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +62,10 @@
 		6587FB32259BB18E00A88891 /* Pastapedia */ = {
 			isa = PBXGroup;
 			children = (
+				6587FB47259BBA3600A88891 /* Model */,
+				6587FB4C259BBCB900A88891 /* Views */,
+				6587FB43259BB32600A88891 /* Resources */,
 				6587FB33259BB18E00A88891 /* PastapediaApp.swift */,
-				6587FB35259BB18E00A88891 /* ContentView.swift */,
 				6587FB37259BB18F00A88891 /* Assets.xcassets */,
 				6587FB3C259BB18F00A88891 /* Info.plist */,
 				6587FB39259BB18F00A88891 /* Preview Content */,
@@ -67,6 +79,33 @@
 				6587FB3A259BB18F00A88891 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6587FB43259BB32600A88891 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6587FB44259BB9E400A88891 /* pasta.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6587FB47259BBA3600A88891 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6587FB48259BBA4100A88891 /* Pasta.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6587FB4C259BBCB900A88891 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6587FB35259BB18E00A88891 /* ContentView.swift */,
+				6587FB4D259BBCE600A88891 /* PastaListRow.swift */,
+				6587FB57259BC5CD00A88891 /* PastaDetail.swift */,
+				6587FB68259BE6C800A88891 /* PastaSizeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +167,7 @@
 			files = (
 				6587FB3B259BB18F00A88891 /* Preview Assets.xcassets in Resources */,
 				6587FB38259BB18F00A88891 /* Assets.xcassets in Resources */,
+				6587FB45259BB9E400A88891 /* pasta.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +180,10 @@
 			files = (
 				6587FB36259BB18E00A88891 /* ContentView.swift in Sources */,
 				6587FB34259BB18E00A88891 /* PastapediaApp.swift in Sources */,
+				6587FB4E259BBCE600A88891 /* PastaListRow.swift in Sources */,
+				6587FB69259BE6C800A88891 /* PastaSizeView.swift in Sources */,
+				6587FB58259BC5CD00A88891 /* PastaDetail.swift in Sources */,
+				6587FB49259BBA4100A88891 /* Pasta.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

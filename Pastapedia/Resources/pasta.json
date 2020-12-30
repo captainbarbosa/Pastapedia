@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "name": "Spaghetti",
+        "size": "large",
+        "description": "A long, thin, solid, cylindrical noodle pasta. It is typically made from durum wheat semolina. Most famous for co-starring in spaghetti and meatballs.",
+        "alternativeNames": ["Long bois"],
+        "region": "Italy"
+    }
+]
